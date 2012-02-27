@@ -1,0 +1,6 @@
+This is just a repo for the files used to package python-cairo for use with
+qtile. Packages are availible via:
+
+    sudo apt-add-repository ppa:tycho-s/ppa
+    sudo apt-get update
+    sudo apt-get install python-cairo

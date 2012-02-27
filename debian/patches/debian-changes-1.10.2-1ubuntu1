@@ -1,0 +1,37 @@
+Description: Upstream changes introduced in version 1.10.2-1ubuntu1
+ This patch has been created by dpkg-source during the package build.
+ Here's the last changelog entry, hopefully it gives details on why
+ those changes were made:
+ .
+ pycairo (1.10.2-1ubuntu1) oneiric; urgency=low
+ .
+   * New pycairo version
+   * Minor build system fixes
+ .
+ The person named in the Author field signed this changelog entry.
+Author: Tycho Andersen <tycho@tycho.ws>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: http://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: <YYYY-MM-DD>
+
+--- pycairo-1.10.2.orig/src/Makefile.am
++++ pycairo-1.10.2/src/Makefile.am
+@@ -11,7 +11,7 @@ pycairoexec_PYTHON = __init__.py
+ pycairoexec_LTLIBRARIES = _cairo.la
+ _cairo_la_LDFLAGS = -module -avoid-version -export-symbols-regex init_cairo
+ _cairo_la_LIBADD = $(CAIRO_LIBS)
+-_cairo_la_CPPFLAGS = $(PYTHON_INCLUDES) $(CAIRO_CFLAGS)
++_cairo_la_CPPFLAGS = $(PYTHON_INCLUDES) $(CAIRO_CFLAGS) $(XPYB_CFLAGS)
+ _cairo_la_SOURCES = \
+   cairomodule.c \
+   context.c \
