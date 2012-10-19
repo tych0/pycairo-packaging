@@ -1,3 +1,15 @@
+pycairo (1.10.2-1ubuntu1) quantal; urgency=low
+
+  * Version bump for new ubuntu version.
+
+ -- Tycho Andersen <tycho@tycho.ws>  Fri, 19 Oct 2012 10:13:44 -0600
+
+pycairo (1.10.2-1ubuntu6) precise; urgency=low
+
+  * Version bump for new ubuntu version.
+
+ -- Tycho Andersen <tycho@tycho.ws>  Sat, 25 Feb 2012 12:55:44 -0600
+
 pycairo (1.10.2-1ubuntu5) oneiric; urgency=low
 
   * New pycairo version
