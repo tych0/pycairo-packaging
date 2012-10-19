@@ -10,5 +10,6 @@ To build the package:
     wget https://launchpad.net/~tycho-s/+archive/ppa/+files/pycairo_1.10.2.orig.tar.gz
     tar -xf pycairo_1.10.2.orig.tar.gz
     # copy the debian/ directory to where the tarball was extracted
+    # apply the debian/patches/* patches
     debuild -S -sd
     dput dput ppa:tycho-s/ppa *.changes
