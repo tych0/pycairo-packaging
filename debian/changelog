@@ -1,4 +1,16 @@
-pycairo (1.10.2-1ubuntu1) quantal; urgency=low
+pycairo (1.10.2-1ubuntu10) quantal; urgency=low
+
+  * Really depend on stock xpyb instead of xpybng
+
+ -- Tycho Andersen <tycho@tycho.ws>  Fri, 19 Oct 2012 16:45:22 -0500
+
+pycairo (1.10.2-1ubuntu8) quantal; urgency=low
+
+  * Depend on stock xpyb instead of xpybng
+
+ -- Tycho Andersen <tycho@tycho.ws>  Fri, 19 Oct 2012 10:13:44 -0600
+
+pycairo (1.10.2-1ubuntu7) quantal; urgency=low
 
   * Version bump for new ubuntu version.
 

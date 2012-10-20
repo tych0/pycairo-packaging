@@ -3,7 +3,7 @@ Description: Upstream changes introduced in version 1.10.2-1ubuntu1
  Here's the last changelog entry, hopefully it gives details on why
  those changes were made:
  .
- pycairo (1.10.2-1ubuntu1) oneiric; urgency=low
+ pycairo (1.10.2-1ubuntu1) precise; urgency=low
  .
    * New pycairo version
    * Minor build system fixes
