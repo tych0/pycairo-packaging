@@ -1,3 +1,9 @@
+pycairo (1.10.2-1ubuntu11) raring; urgency=low
+
+  * Version bump for new ubuntu version.
+
+ -- Tycho Andersen <tycho@tycho.ws>  Fri, 01 Mar 2013 16:45:22 -0500
+
 pycairo (1.10.2-1ubuntu10) quantal; urgency=low
 
   * Really depend on stock xpyb instead of xpybng
