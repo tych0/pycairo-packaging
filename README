@@ -12,4 +12,4 @@ To build the package:
     # copy the debian/ directory to where the tarball was extracted
     # apply the debian/patches/* patches
     debuild -S -sd
-    dput dput ppa:tycho-s/ppa *.changes
+    dput ppa:tycho-s/ppa *.changes
