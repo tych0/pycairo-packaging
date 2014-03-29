@@ -1,3 +1,9 @@
+pycairo (1.10.2-saucy1ubuntu1) trusty; urgency=low
+
+  * Version bump for trusty tahr.
+
+ -- Tycho Andersen <tycho@tycho.ws>  Sat, 29 Mar 2014 16:15:39 -0500
+
 pycairo (1.10.2-saucy1) saucy; urgency=low
 
   * Version bump for saucy salamander.
